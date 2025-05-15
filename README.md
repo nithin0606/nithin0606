@@ -1,121 +1,88 @@
-<div align="center">
-  <!-- Animated Avengers Logo -->
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="200">
-  
-  <!-- 3D Typing Effect with Shield Animation -->
-  <h1> 
-    <img src="https://readme-typing-svg.demolab.com?font=Marvel&weight=800&size=36&duration=4000&pause=1000&color=F0131E&background=000000&center=true&vCenter=true&width=800&height=80&lines=PROTOCOL:+NITHIN+M;ASSEMBLING+CODE+HEROES;MISSION:+BUILD+THE+FUTURE" alt="Typing SVG" />
-  </h1>
-  
-  <!-- Shield Divider -->
-  <img src="https://media.giphy.com/media/3o7TKsrf4eB4bZ4kxi/giphy.gif" width="300">
-</div>
+<!-- AVENGERS STYLE INTRO -->
+<p align="center">
+  <img src="https://media.tenor.com/qJ5evVs-_uUAAAAC/assemble-avengers.gif" width="300" />
+</p>
 
-<br>
+<h1 align="center">Hi, I'm <code>Nithin M</code> ⚡</h1>
 
-<!-- JARVIS Terminal -->
-<div align="center" style="background:#0F172A; border-radius:10px; padding:15px; font-family:monospace; text-align:left;">
-  <span style="color:#38BDF8">JARVIS@StarkIndustries:~$</span> ./init_profile.sh<br>
-  > Loading <span style="color:#F472B6">Nithin M</span> credentials...<br>
-  > <span style="color:#10B981">✓</span> Verified: Full-Stack Developer<br>
-  > <span style="color:#10B981">✓</span> Verified: Event Management Expert<br>
-  > <span style="color:#10B981">✓</span> Verified: AI/ML Specialist<br>
-  > System Status: <span style="color:#F59E0B">OPERATIONAL</span><br>
-  > Last Login: <span id="current-date" style="color:#A5B4FC"></span>
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&color=E84545&center=true&vCenter=true&width=600&lines=Freelance+Event+Manager+%7C+Developer;Avengers+Tech+Squad+Incoming!;Python+%7C+PHP+%7C+Machine+Learning+%7C+Web+Dev;Let's+Code+Something+Epic!+%F0%9F%9A%80" alt="Typing animation" />
+</p>
 
-<br>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nithin0606&label=Profile+Views&style=flat-square&color=brightgreen" alt="profile views" />
+</p>
 
-## 🛡️ Tech Arsenal
+---
 
-<div align="center">
-  <!-- Animated Tech Icons -->
-  <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="100">
-  
-  <br>
-  
-  <!-- Interactive Tech Badges -->
-  <div style="display:inline-block; margin:5px;">
-    <img src="https://img.shields.io/badge/PYTHON-J.A.R.V.I.S-blue?style=for-the-badge&logo=python&logoColor=yellow&labelColor=000000" alt="Python">
-  </div>
-  <div style="display:inline-block; margin:5px;">
-    <img src="https://img.shields.io/badge/JAVA-V.I.S.I.O.N-orange?style=for-the-badge&logo=java&logoColor=red&labelColor=000000" alt="Java">
-  </div>
-  <div style="display:inline-block; margin:5px;">
-    <img src="https://img.shields.io/badge/SQL-F.R.I.D.A.Y-lightgrey?style=for-the-badge&logo=mysql&logoColor=white&labelColor=000000" alt="SQL">
-  </div>
-  <div style="display:inline-block; margin:5px;">
-    <img src="https://img.shields.io/badge/OPENCV-U.L.T.R.O.N-green?style=for-the-badge&logo=opencv&logoColor=white&labelColor=000000" alt="OpenCV">
-  </div>
-</div>
+## 🧠 About Me
 
-<br>
+🎯 **Freelance Event Manager** turned **Tech Explorer**  
+📍 Bengaluru, India  
+📧 nithinmgowda06@gmail.com
 
-## 🚀 Active Missions
+---
 
-<!-- Project Cards with Hover Effects -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+## 🛠️ Tech Arsenal
 
-  <!-- Project 1 -->
-  <div style="background:#1E293B; border-radius:10px; padding:20px; transition:all 0.3s ease; border-left:4px solid #F0131E;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 10px 20px rgba(240, 19, 30, 0.3)';" onmouseout="this.style.transform='';this.style.boxShadow='';">
-    <h3>🖱️ Virtual Mouse MK-II</h3>
-    <p>Next-gen gesture control with AI precision</p>
-    <div>
-      <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/OPENCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV">
-    </div>
-    <a href="https://github.com/nithin0606/Eye-and-Hand-Gesture-Control-System" style="color:#38BDF8; text-decoration:none;">>> View Mission Files</a>
-  </div>
+| 💻 Programming | 🧠 ML/AI & Tools | 🎨 Design |
+|----------------|------------------|-----------|
+| ![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python) ![Java](https://img.shields.io/badge/-Java-b07219?style=for-the-badge&logo=java) ![PHP](https://img.shields.io/badge/-PHP-4F5D95?style=for-the-badge&logo=php) | ![OpenCV](https://img.shields.io/badge/-OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit) ![Mediapipe](https://img.shields.io/badge/-Mediapipe-orange?style=for-the-badge) | ![HTML](https://img.shields.io/badge/-HTML5-e34c26?style=for-the-badge&logo=html5) ![CSS](https://img.shields.io/badge/-CSS3-1572b6?style=for-the-badge&logo=css3) ![Figma](https://img.shields.io/badge/-Figma-0AC97F?style=for-the-badge&logo=figma) |
 
-  <!-- Project 2 -->
-  <div style="background:#1E293B; border-radius:10px; padding:20px; transition:all 0.3s ease; border-left:4px solid #F59E0B;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 10px 20px rgba(245, 158, 11, 0.3)';" onmouseout="this.style.transform='';this.style.boxShadow='';">
-    <h3>🧠 Disease Predictor Armor</h3>
-    <p>AI-powered health diagnostics system</p>
-    <div>
-      <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/ML-FF6B6B?style=flat&logo=scikit-learn&logoColor=white" alt="Machine Learning">
-    </div>
-    <a href="https://github.com/nithin0606/Multiple-Disease-Prediction-System" style="color:#38BDF8; text-decoration:none;">>> View Mission Files</a>
-  </div>
-</div>
+---
 
-<br>
+## 🚀 Projects That Matter
 
-## ⚡ Power Metrics
+| 🦾 Project | 🔧 Description | 🧰 Tech Stack |
+|-----------|----------------|----------------|
+| 🖱️ [Virtual Mouse](https://github.com/nithin0606/Virtual-Mouse) | Control computer with hand gestures | Python, OpenCV, Mediapipe |
+| 🍔 [Food Ordering System](https://github.com/nithin0606/Food-Ordering-System) | Complete restaurant ordering flow | PHP, SQL |
+| 🩸 [Blood Bank System](https://github.com/nithin0606/Blood-Bank-System) | Manage blood donors, hospitals | PHP, SQL |
+| 🧠 [Disease Prediction](https://github.com/nithin0606/Multiple-Disease-Prediction-System) | Predict illness using symptoms | Python, ML, Streamlit |
 
-<div align="center">
-  <!-- GitHub Stats with Shield Frame -->
-  <img src="https://github-readme-stats.vercel.app/api?username=nithin0606&show_icons=true&theme=dark&title_color=F0131E&text_color=FFFFFF&border_color=F0131E&bg_color=0F172A&include_all_commits=true" alt="Stats" style="border:3px solid #1E293B; border-radius:10px;"/>
-  
-  <br>
-  
-  <!-- Contribution Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nithin0606&theme=react-dark&hide_border=true&area=true&bg_color=0F172A&color=38BDF8&point=F59E0B" alt="Contribution Graph" width="100%"/>
-</div>
+---
 
-<br>
+## 📚 Education
 
-## 📡 Connect With Me
+🎓 **B.E. in ISE** — MVJ College of Engineering *(2023–Present)*  
+🎓 **Diploma in CSE** — Sri Jayachamarajendra Polytechnic *(CGPA: 8.09)*  
+🏫 **SSLC** — Sterling English High School *(86.4%)*  
 
-<div align="center">
-  <!-- Animated Social Links -->
-  <a href="https://linkedin.com/in/nithinm06" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin:5px; transition:all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)';this.style.filter='drop-shadow(0 0 8px #0A66C2)';" onmouseout="this.style.transform='';this.style.filter='';">
-  </a>
-  <a href="mailto:nithinmgowda06@gmail.com" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" style="margin:5px; transition:all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)';this.style.filter='drop-shadow(0 0 8px #EA4335)';" onmouseout="this.style.transform='';this.style.filter='';">
-  </a>
-</div>
+---
 
-<br>
+## 🧬 GitHub Stats & Power Level
 
-<!-- Live Date Script -->
-<script>
-  document.getElementById('current-date').innerText = new Date().toLocaleString();
-</script>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nithin0606&show_icons=true&theme=radical&hide_title=true" height="160"/>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=nithin0606&theme=tokyonight&hide_border=true" height="150"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nithin0606&layout=compact&theme=radical" height="130"/>
+</p>
 
-<!-- Footer with Arc Reactor -->
-<div align="center">
-  <img src="https://media.giphy.com/media/12zV7u6Bh0vHpu/giphy.gif" width="100">
-  <p><i>"I am Iron Man." - Tony Stark</i></p>
-</div>
+---
+
+## 🌐 Languages Spoken
+
+- 🇬🇧 English  
+- 🇮🇳 Kannada  
+- 🇮🇳 Hindi  
+- 🇮🇳 Telugu  
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nithin0606&theme=matrix&margin-w=15&no-frame=true" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://media.tenor.com/NFghq2yWQooAAAAd/iron-man-tony-stark.gif" width="200" />
+</p>
+
+<p align="center"><i>“Sometimes you gotta run before you can walk.” – Tony Stark</i></p>
+ 
+ 
