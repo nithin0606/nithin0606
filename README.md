@@ -1,283 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nithin M - Portfolio</title>
-    <style>
-        :root {
-            --primary: #3498db;
-            --secondary: #2c3e50;
-            --accent: #e74c3c;
-            --light: #ecf0f1;
-            --dark: #2c3e50;
-            --gray: #95a5a6;
-        }    
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        } 
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-        }    
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            border-radius: 10px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        } 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 20px;
-            border-bottom: 2px solid var(--primary);
-            margin-bottom: 30px;
-        }
-        .header-text h1 {
-            color: var(--secondary);
-            font-size: 2.5rem;
-            margin-bottom: 5px;
-        }
-        .header-text p {
-            color: var(--gray);
-            font-size: 1.1rem;
-        }
-        .contact-info {
-            text-align: right;
-        }  
-        .contact-info p {
-            margin-bottom: 5px;
-        }
-        .contact-info a {
-            color: var(--primary);
-            text-decoration: none;
-        }    
-        .contact-info a:hover {
-            text-decoration: underline;
-        } 
-        section {
-            margin-bottom: 30px;
-        }  
-        h2 {
-            color: var(--primary);
-            border-bottom: 2px solid var(--light);
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            font-size: 1.8rem;
-        }
-        h3 {
-            color: var(--secondary);
-            margin-bottom: 5px;
-            font-size: 1.3rem;
-        }  
-        .job, .education-item, .project {
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px dashed var(--gray);
-        }
-        .job:last-child, .education-item:last-child, .project:last-child {
-            border-bottom: none;
-        }     
-        .date {
-            color: var(--gray);
-            font-style: italic;
-            margin-bottom: 10px;
-        } 
-        ul {
-            padding-left: 20px;
-        }  
-        li {
-            margin-bottom: 5px;
-        }  
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }  
-        .skill-category {
-            flex: 1;
-            min-width: 250px;
-        }     
-        .skill-category h4 {
-            color: var(--accent);
-            margin-bottom: 10px;
-        }
-        .tag {
-            display: inline-block;
-            background-color: var(--light);
-            color: var(--dark);
-            padding: 5px 10px;
-            border-radius: 20px;
-            margin-right: 5px;
-            margin-bottom: 5px;
-            font-size: 0.9rem;
-        } 
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }      
-            .contact-info {
-                text-align: center;
-                margin-top: 15px;
-            }
-            .skills-container {
-                flex-direction: column;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div class="header-text">
-                <h1>NITHIN M</h1>
-                <p>Freelance Event Manager & Aspiring Developer</p>
-            </div>
-            <div class="contact-info">
-                <p>📧 <a href="mailto:nithinmgowda06@gmail.com">nithinmgowda06@gmail.com</a></p>
-                <p>🌍 Bengaluru, India</p>
-                <p>🔗 <a href="linkedin.com/in/nithinm06" target="_blank">LinkedIn</a> | 
-                   <a href="https://github.com/nithin0606" target="_blank">GitHub</a></p>
-            </div>
-        </header>
-        <section id="summary">
-            <h2>Professional Summary</h2>
-            <p>Dynamic and results-driven event management professional with three years of experience in corporate events, weddings, concerts, and brand promotions. Adept at orchestrating large-scale events, leading cross-functional teams, and executing seamless event operations. Passionate about technology with skills in programming and development.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h4>Technical Skills</h4>
-                    <div>
-                        <span class="tag">Python (Intermediate)</span>
-                        <span class="tag">Java (Beginner)</span>
-                        <span class="tag">Data Structures & Algorithms</span>
-                        <span class="tag">Machine Learning</span>
-                        <span class="tag">Artificial Intelligence</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">MySQL</span>
-                        <span class="tag">Data Analysis</span>
-                        <span class="tag">Figma</span>
-                        <span class="tag">Microsoft Excel</span>
-                        <span class="tag">PowerPoint</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>Event & Management Skills</h4>
-                    <div>
-                        <span class="tag">Strategic Event Planning</span>
-                        <span class="tag">Vendor Management</span>
-                        <span class="tag">Stakeholder Management</span>
-                        <span class="tag">Audience Engagement</span>
-                        <span class="tag">Crisis & Risk Management</span>
-                        <span class="tag">Budgeting</span>
-                        <span class="tag">Team Leadership</span>
-                    </div>
-                </div>
-            </div>
-        </section>        
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Freelance Event Manager</h3>
-                <p class="date">2021 - Present | Bengaluru, India</p>
-                <ul>
-                    <li>Managed 100+ high-impact events with seamless execution and client satisfaction</li>
-                    <li>Led budgeting, vendor coordination, and on-site operations for various events</li>
-                    <li>Specialized in VIP and celebrity event management, enhancing experiences with strategic planning</li>
-                    <li>Developed strong relationships with vendors and clients to ensure repeat business</li>
-                </ul>
-            </div>
-        </section>        
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Virtual Mouse</h3>
-                <ul>
-                    <li>Designed a hand gesture-based virtual mouse for contactless computer interaction</li>
-                    <li>Technologies: Python, OpenCV, Mediapipe</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Food Ordering System</h3>
-                <ul>
-                    <li>Created a user interface for browsing menus, ordering, payments, and restaurant management</li>
-                    <li>Technologies: SQL, PHP</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Blood Bank Management System</h3>
-                <ul>
-                    <li>Developed a web-based platform to manage blood donations and distribution</li>
-                    <li>Technologies: SQL, PHP</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Multiple Disease Prediction</h3>
-                <ul>
-                    <li>Built an ML-based system to predict health conditions from user inputs</li>
-                    <li>Technologies: Python, Streamlit</li>
-                </ul>
-            </div>
-        </section>      
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Bachelor of Engineering (B.E) - Information Science</h3>
-                <p class="date">2023 - Present | MVJ College of Engineering</p>
-            </div>
-            <div class="education-item">
-                <h3>Diploma in Computer Science and Engineering</h3>
-                <p class="date">2020-2023 | Sri Jayachamarajendra (Govt.) Polytechnic</p>
-                <p>CGPA: 8.09/10.0</p>
-            </div>
-            <div class="education-item">
-                <h3>SSLC (10th Std)</h3>
-                <p class="date">2019-2020 | Sterling English High School</p>
-                <p>Percentage: 86.4%</p>
-            </div>
-        </section>     
-        <section id="additional">
-            <h2>Additional Information</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h4>Languages</h4>
-                    <div>
-                        <span class="tag">English</span>
-                        <span class="tag">Kannada</span>
-                        <span class="tag">Hindi</span>
-                        <span class="tag">Telugu</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>Internships</h4>
-                    <p>AI & ML Intern | Techlang Upskill & Earn | Mar 2023 - June 2023</p>
-                </div>
-                <div class="skill-category">
-                    <h4>Training</h4>
-                    <p>Samsung Innovation Campus | Dec 2022 - Mar 2023</p>
-                </div>
-                <div class="skill-category">
-                    <h4>Certifications</h4>
-                    <div>
-                        <span class="tag">Java</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">Python</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+<div align="center">
+  <!-- Animated Avengers Logo -->
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="200">
+  
+  <!-- 3D Typing Effect with Shield Animation -->
+  <h1> 
+    <img src="https://readme-typing-svg.demolab.com?font=Marvel&weight=800&size=36&duration=4000&pause=1000&color=F0131E&background=000000&center=true&vCenter=true&width=800&height=80&lines=PROTOCOL:+NITHIN+M;ASSEMBLING+CODE+HEROES;MISSION:+BUILD+THE+FUTURE" alt="Typing SVG" />
+  </h1>
+  
+  <!-- Shield Divider -->
+  <img src="https://media.giphy.com/media/3o7TKsrf4eB4bZ4kxi/giphy.gif" width="300">
+</div>
+
+<br>
+
+<!-- JARVIS Terminal -->
+<div align="center" style="background:#0F172A; border-radius:10px; padding:15px; font-family:monospace; text-align:left;">
+  <span style="color:#38BDF8">JARVIS@StarkIndustries:~$</span> ./init_profile.sh<br>
+  > Loading <span style="color:#F472B6">Nithin M</span> credentials...<br>
+  > <span style="color:#10B981">✓</span> Verified: Full-Stack Developer<br>
+  > <span style="color:#10B981">✓</span> Verified: Event Management Expert<br>
+  > <span style="color:#10B981">✓</span> Verified: AI/ML Specialist<br>
+  > System Status: <span style="color:#F59E0B">OPERATIONAL</span><br>
+  > Last Login: <span id="current-date" style="color:#A5B4FC"></span>
+</div>
+
+<br>
+
+## 🛡️ Tech Arsenal
+
+<div align="center">
+  <!-- Animated Tech Icons -->
+  <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="100">
+  
+  <br>
+  
+  <!-- Interactive Tech Badges -->
+  <div style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/PYTHON-J.A.R.V.I.S-blue?style=for-the-badge&logo=python&logoColor=yellow&labelColor=000000" alt="Python">
+  </div>
+  <div style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/JAVA-V.I.S.I.O.N-orange?style=for-the-badge&logo=java&logoColor=red&labelColor=000000" alt="Java">
+  </div>
+  <div style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/SQL-F.R.I.D.A.Y-lightgrey?style=for-the-badge&logo=mysql&logoColor=white&labelColor=000000" alt="SQL">
+  </div>
+  <div style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/OPENCV-U.L.T.R.O.N-green?style=for-the-badge&logo=opencv&logoColor=white&labelColor=000000" alt="OpenCV">
+  </div>
+</div>
+
+<br>
+
+## 🚀 Active Missions
+
+<!-- Project Cards with Hover Effects -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+
+  <!-- Project 1 -->
+  <div style="background:#1E293B; border-radius:10px; padding:20px; transition:all 0.3s ease; border-left:4px solid #F0131E;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 10px 20px rgba(240, 19, 30, 0.3)';" onmouseout="this.style.transform='';this.style.boxShadow='';">
+    <h3>🖱️ Virtual Mouse MK-II</h3>
+    <p>Next-gen gesture control with AI precision</p>
+    <div>
+      <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/OPENCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV">
     </div>
-</body>
-</html>
+    <a href="https://github.com/nithin0606/Eye-and-Hand-Gesture-Control-System" style="color:#38BDF8; text-decoration:none;">>> View Mission Files</a>
+  </div>
+
+  <!-- Project 2 -->
+  <div style="background:#1E293B; border-radius:10px; padding:20px; transition:all 0.3s ease; border-left:4px solid #F59E0B;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 10px 20px rgba(245, 158, 11, 0.3)';" onmouseout="this.style.transform='';this.style.boxShadow='';">
+    <h3>🧠 Disease Predictor Armor</h3>
+    <p>AI-powered health diagnostics system</p>
+    <div>
+      <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/ML-FF6B6B?style=flat&logo=scikit-learn&logoColor=white" alt="Machine Learning">
+    </div>
+    <a href="https://github.com/nithin0606/Multiple-Disease-Prediction-System" style="color:#38BDF8; text-decoration:none;">>> View Mission Files</a>
+  </div>
+</div>
+
+<br>
+
+## ⚡ Power Metrics
+
+<div align="center">
+  <!-- GitHub Stats with Shield Frame -->
+  <img src="https://github-readme-stats.vercel.app/api?username=nithin0606&show_icons=true&theme=dark&title_color=F0131E&text_color=FFFFFF&border_color=F0131E&bg_color=0F172A&include_all_commits=true" alt="Stats" style="border:3px solid #1E293B; border-radius:10px;"/>
+  
+  <br>
+  
+  <!-- Contribution Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nithin0606&theme=react-dark&hide_border=true&area=true&bg_color=0F172A&color=38BDF8&point=F59E0B" alt="Contribution Graph" width="100%"/>
+</div>
+
+<br>
+
+## 📡 Connect With Me
+
+<div align="center">
+  <!-- Animated Social Links -->
+  <a href="https://linkedin.com/in/nithinm06" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin:5px; transition:all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)';this.style.filter='drop-shadow(0 0 8px #0A66C2)';" onmouseout="this.style.transform='';this.style.filter='';">
+  </a>
+  <a href="mailto:nithinmgowda06@gmail.com" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" style="margin:5px; transition:all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)';this.style.filter='drop-shadow(0 0 8px #EA4335)';" onmouseout="this.style.transform='';this.style.filter='';">
+  </a>
+</div>
+
+<br>
+
+<!-- Live Date Script -->
+<script>
+  document.getElementById('current-date').innerText = new Date().toLocaleString();
+</script>
+
+<!-- Footer with Arc Reactor -->
+<div align="center">
+  <img src="https://media.giphy.com/media/12zV7u6Bh0vHpu/giphy.gif" width="100">
+  <p><i>"I am Iron Man." - Tony Stark</i></p>
+</div>
